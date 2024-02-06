@@ -1,0 +1,31 @@
+.contact {
+    padding-top: 100px;
+}
+
+@media (min-width: 992px) {
+    form {
+        width: 55% !important;
+    }
+}
+@media (max-width: 991px) {
+    form {
+        width: 75% !important;
+    }
+}
+@media (max-width: 767px) {
+    form {
+        width: 85% !important;
+    }
+}
+
+label {
+    color: #1abc9c;
+    margin-bottom: 7px;
+    transition: all .5s;
+}
+
+.topLabel {
+    top: 40px !important;
+}
+
+
